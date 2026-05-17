@@ -1,0 +1,41 @@
+.home{
+
+}
+.btn-wrapper {
+  margin-top: 20px;
+}
+.container{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.containerh1{
+    color:rgba(255, 255, 255, 0.95)
+}
+.container p{
+    color: rgba(255, 255, 255, 0.85);
+}
+.containerh2{
+    color:linear-gradient(135deg, #3b82f6, #8b5cf6);
+}
+
+.cta-btn {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
+.cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.4);
+}
+
+.cta-btn:active {
+  transform: scale(0.97);
+}
